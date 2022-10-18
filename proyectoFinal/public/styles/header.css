@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+button {
+    border-radius: 10px;
+    outline-color: aliceblue;
+}
+
+a,
+a:visited {
+
+    text-decoration: none;
+
+}
+
+.titulo {
+    text-align: center;
+}
+
+.dropstart {
+    font-family: 'Roboto Condensed', sans-serif;
+}

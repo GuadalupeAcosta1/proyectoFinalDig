@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/styles/index.css">
+</head>
+
+<header>
+    <%- include('../partials/header'); %>
+</header>
+
+<body>
+    <div class="titulo">
+        <h1>BLOG DE VIAJES</h1>
+    </div>
+
+    <div class="encabezado">
+
+    </div>
+    <div class="titulo">
+        <h4>Últimos posteos</h4>
+    </div>
+
+    <div class="container">
+
+
+        <div class="container_slider">
+            <div class="control prev">
+                <img src="/public/images/arrowleft.png" alt="" width="40px">
+            </div>
+            <div class="slider">
+                <div class="picturesmenu">
+                    <% articles.forEach(article=>{%>
+                        <a href="articles/<%= article.slug %>">
+                            <div class="card" style="width: 15rem; height: 28rem;">
+                                <img src="<%= article.image %>" class="card-img-top" alt="...">
+                                <div class="card-body" style="width: 15rem; height: 12rem;">
+                                    <h4 class="card-title">
+                                        <%= article.title %>
+                                    </h4>
+                                    <h6 class="card-subtitle">
+                                        <%= article.markdown %>
+                                    </h6>
+
+                                </div>
+                            </div>
+                        </a>
+                        <% }); %>
+                </div>
+            </div>
+            <div class="control next">
+                <img src="/public/images/arrowright.png" alt="" width="40px">
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+    </div>
+
+
+    </div>
+
+
+</body>
+
+<footer>
+    <%- include('../partials/footer'); %>
+</footer>
+
+<script src="/public/js/index.js"></script>
+
+</html>

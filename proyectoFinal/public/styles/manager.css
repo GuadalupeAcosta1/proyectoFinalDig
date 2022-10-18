@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+
+
+body {
+    background: url(/public/images/paisaje.png) no-repeat center;
+  
+}
+
+.menu .btn {
+
+    width: 140px;
+    height: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-left: 10px;
+}
+.btns{
+    margin-left: -22px;
+}
+
+#newpost {
+    margin-left: 1125px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+.menu {
+    text-align: center;
+    margin-left: 120px;
+}
+
+.menu #markdown {
+    width: 500px;
+    height: auto;
+    text-align: center;
+    display: inline-flex;
+    position: relative;
+}
+
+.menu .card {
+    background-color: white;
+    position: relative;
+    margin: 6px;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
