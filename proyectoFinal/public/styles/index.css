@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 .btn {
     margin: 5px;
@@ -49,9 +50,11 @@ body{
 
 }
 .titulo h1{
-    background-color: white;
+    background-color: #D7BDE2 ;
     color: black;
     font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    padding: 4px;
 }
 .titulo h4{
     padding-top: 30px;
@@ -66,6 +69,7 @@ body{
 
 .card h6{
     font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
 }
 
 
