@@ -3,4 +3,9 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 600;
     background: url(/public/images/paisaje.png) ;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 3px;
 }

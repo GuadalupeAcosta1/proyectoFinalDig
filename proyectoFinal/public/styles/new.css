@@ -9,7 +9,11 @@ body {
 .container{
     margin-top: 3px;
     margin-left: 100px;
-    color: white;
+
     
+}
+h1{
+    text-align: center;
+    margin-top: 2px;
 }
 
